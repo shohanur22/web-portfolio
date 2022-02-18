@@ -1,0 +1,88 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+h1{
+    font-size: 50px;
+}
+.span1{
+    color:darkred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 3px 0 20px #992f2f;
+}
+.half_width{
+    width: 36%;
+    float: left;
+    margin: 4%;
+    padding: 2%;
+}
+.half_width img{
+    width: 100%;
+}
+.sctn1{
+    background-image: url("images/top-banner.png");
+}
+section{
+    height: 600px;
+    background-repeat: no-repeat;
+}
+.bln1{
+    font-weight: 700;
+    font-size: 18px;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+}
+.sctn2 .half_width{
+    width: 36%;
+    float: right;
+    margin: 4%;
+    padding: 2%;
+}
+.sctn2 .half_width img{
+    height: auto;
+    width: 500px;
+}
+.sctn2{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.sctn3 .half_width{
+    padding: 5px 30px;
+    width: 35%;
+    margin-left: 6%;
+}
+
+.single_experience{
+    box-shadow: 10px 10px 40px gray;
+    height: 60%;
+    border-radius: 7px;
+}
+.single_experience h3{
+    color: rgb(201, 32, 116);
+}
+.sctn3{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(251, 255, 0), rgb(236, 71, 71));
+    border-image-slice: 1;
+    background-color: white;
+}
+#wp-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(44, 224, 194), rgb(152, 75, 204));
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 12px;
+}
